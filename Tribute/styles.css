@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", Sans-Serif;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #212529;
+}
+hr {
+  margin: 5px 0;
+}
+#title-section {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+#title-section h1 {
+  font-size: 2.4rem;
+  margin: 0;
+  padding-top: 50px;
+  letter-spacing: 0.5px;
+}
+#title-section p {
+  font-size: 0.9rem;
+  margin: 20px 0 17px;
+  color: #343a40;
+}
+figure {
+  margin: 0 auto;
+  background-color: #ffffff;
+  max-width: 800px;
+}
+#image {
+  max-width: 100%;
+  min-width: 80%;
+  height: auto;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  filter: brightness(1.12);
+}
+figcaption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #343a40;
+  margin-bottom: 35px;
+}
+#timeline {
+  background-color: #f2f2f2;
+  margin: 0;
+}
+#timeline ul {
+  max-width: 700px;
+  margin: 0 auto;
+}
+#timeline h2 {
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 1.25rem;
+  margin: 20px 0 40px;
+}
+#timeline li {
+  margin: 15px 60px;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+.bold {
+  font-weight: 700;
+  line-height: 25px;
+  color: #343a40;
+}
+#summary {
+  margin: 0;
+  background-color: #ffffff;
+}
+#summary hr {
+  max-width: 800px;
+  margin: 5px auto;
+}
+#summary p {
+  font-size: 1rem;
+  font-weight: 450;
+  font-style: italic;
+  text-align: justify;
+  margin: 18px auto;
+  line-height: 26px;
+  max-width: 800px;
+  padding: 0 15px;
+}
+#quotes {
+  background-color: #f2f2f2;
+  margin: 0;
+}
+#quotes p {
+  max-width: 600px;
+  font-size: 0.9rem;
+  margin: 40px auto 0px;
+  text-align: justify;
+}
+#quotes p:last-child {
+  font-size: auto;
+  text-align: right;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+#tribute-info {
+  background-color: #ffffff;
+  text-align: center;
+}
+#tribute-info hr {
+  max-width: 800px;
+  margin: 5px auto;
+}
+#tribute-info p {
+  margin: 30px auto 0px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+}
+#tribute-info p:last-child {
+  margin-bottom: 10px;
+  margin-top: 25px;
+  font-size: 0.7rem;
+  font-weight: normal;
+}

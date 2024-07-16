@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main id="main-section">
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <div class="main-card">
+            <form id="survey-form">
+                <label for="name" id="name-label">Name: <input id="name" name="name" type="text" required
+                        placeholder="Enter your name" /></label>
+                <label for="email" id="email-label">Email: <input id="email" name="email" type="email" required
+                        placeholder="Enter your Email" /></label>
+                <label for="age" id="number-label" class="section-spacing">Age: <input id="number" name="age"
+                        type="number" min="13" max="99" placeholder="Age" /></label>
+
+                <label for="referrer" id="referrer-dropdown">How did you hear about us?
+                    <select id="dropdown" name="referrer" class="section-spacing">
+                        <option value="">(select one)</option>
+                        <option value="1">freeCodeCamp News</option>
+                        <option value="2">freeCodeCamp YouTube Channel</option>
+                        <option value="3">freeCodeCamp Forum</option>
+                        <option value="4">Other</option>
+                    </select>
+
+                    <label>Account type</label>
+                    <label for="personal-account" class="indent"><input id="personal-account" type="radio"
+                            name="account-type" class="inline" checked value="personal" /> Personal</label>
+                    <label for="business-account" class="section-spacing indent"><input id="business-account"
+                            type="radio" name="account-type" class="inline" value="business" /> Business</label>
+
+                    <label>What do you like about us?</label>
+                    <label for="fun" class="indent"><input type="checkbox" id="fun" value="fun" name="fun"
+                            class="inline">Funny
+                        delivery</label>
+                    <label for="easy" class="indent"><input type="checkbox" id="easy" value="easy" name="easy"
+                            class="inline">Easy to
+                        learn</label>
+                    <label for="simple" class="indent"><input type="checkbox" id="simple" value="simple" name="simple"
+                            class="inline">Straightforward</label>
+                    <label for="happy" class="section-spacing indent"><input type="checkbox" id="happy" value="happy"
+                            name="happy" class="inline">Happy
+                        vibes aesthetic</label>
+
+                    <label for="comments">Any comments or suggestions?
+                        <textarea id="comments" name="comments" rows="3" cols="30"
+                            placeholder="Enter you comment here..."></textarea>
+                        <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+</body>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazz Festival</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <div class="nav-container">
+            <div id="logo">
+                <img id="header-img"
+                    src="https://media.discordapp.net/attachments/1174468835676528652/1235266460524216481/jazz-live2.png?ex=6635108a&is=6633bf0a&hm=84fa67389d5e1f85a229f60bf17b89299994dbe28f96676a193b5e52ceb6fb0c&=&format=webp&quality=lossless"
+                    alt="">
+                <img id="header-img"
+                    src="https://media.discordapp.net/attachments/1174468835676528652/1235266459983155280/dolby.png?ex=6633bf0a&is=66326d8a&hm=21f1d8a68523635d5d81908e4fa20c6875046f90b0b438f572edbf668cda5d13&=&format=webp&quality=lossless&width=1440&height=439"
+                    alt="">
+            </div>
+            <nav id="nav-bar">
+                <input type="checkbox" id="ham-check">
+                <i class="fa-solid fa-bars hamburger"></i>
+                <div id="ham-menu">
+                    <a class="nav-link" href="#form">Register</a>
+                    <a class="nav-link" href="#features">Features</a>
+                    <a class="nav-link" href="#video">Live</a>
+                    <a class="nav-link" href="#video">Pricing</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+        <section id="main-title" class="container">
+            <h1>Jazz Live Festival 2024</h1>
+            <h2>Ft. Sabrina Claudio, Daniel Caesar, Jeff Bernat</h2>
+        </section>
+        <section id="quotes" class="container">
+            <div class="quote">
+                <blockquote>
+                    "Clearly the best music experience i've ever had in my entire life."
+
+                </blockquote>
+                <p>-Adie MS</p>
+            </div>
+            <div class="quote">
+                <blockquote>
+                    " It's magical, it's magnificent, it's something incredible a
+                    group of people ever performanced."
+                </blockquote>
+                <p>-Deddy C</p>
+            </div>
+        </section>
+        <section id="features" class="container">
+            <div class="feature">
+                <i class="fa-solid fa-music feature-icon"></i>
+                <div class="feature-text">
+                    <h3 class="feature-title">Good Quality Music</h3>
+                    <p class="feature-desc">Our sound system uses the highest quality materials to prove the best music
+                        experience possible.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-car feature-icon""></i>
+                <div class=" feature-text">
+                    <h3 class="feature-title">Big Parking Space</h3>
+                    <p class="feature-desc">We make sure you have a place to park your vehicles with proper security
+                        around to make you feel safe and dont have to worry about your vehicles.</p>
+            </div>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-whiskey-glass feature-icon"></i>
+                <div class="feature-text">
+                    <h3 class="feature-title">Snacks & Drinks</h3>
+                    <p class="feature-desc">We provide the best catering around town for your snacks and drinks while
+                        enjoying the music.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <i class="fa-brands fa-soundcloud feature-icon"></i>
+                <div class="feature-text">
+                    <h3 class="feature-title">Live Performance VODs</h3>
+                    <p class="feature-desc">Grants you access to the live performance VODs to enjoy your memories.</p>
+                </div>
+            </div>
+        </section>
+        <section id="videos" class="container">
+            <h2>Live Performance</h2>
+            <div id="videos-container">
+                <div class="video-title">
+                    <iframe id="video" src="https://www.youtube.com/embed/0rC8dwKkSW4?si=SjQcY2GEjek0fleT"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Daniel Caesar - Best Part</h3>
+                </div>
+                <div class="video-title">
+                    <iframe id="video" src="https://www.youtube.com/embed/fcX8mtsv6WQ?si=TExr1vKmM8OG96X1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Jeff Bernat - Call You Mine</h3>
+                </div>
+            </div>
+        </section>
+        <section id="register" class="container">
+            <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+                <label for="email">Register Now</label>
+                <p>
+                    Don't Miss Out on this Music Experience!
+                </p>
+                <input type="email" id="email" placeholder="Enter your Email" name="email">
+                <input type="submit" id="submit">
+            </form>
+        </section>
+        <section id="pricing" class="container">
+            <div class="product" id="regular">
+                <div class="level">Regular Ticket</div>
+                <h2>$60</h2>
+                <ol>
+                    <li>CAT 2 & 3</li>
+                    <li>Snacks and Drinks</li>
+                    <li>T-Shirt and Bracelet</li>
+                </ol>
+                <a id="button-link" href="#register"><button class="btn">BUY NOW</button></a>
+            </div>
+            <div class="product" id="VIP">
+                <div class="level">
+                    <div>VIP</div>Ticket
+                </div>
+                <h2>$120</h2>
+                <ol>
+                    <li>VIP Lounge</li>
+                    <li>Snacks and Drinks</li>
+                    <li>Lightsticks, Bracelet, and T-Shirt</li>
+                </ol>
+                <a id="button-link" href="#register"><button class="btn">BUY NOW</button></a>
+
+            </div>
+            <div class="product" id="premium">
+                <div class="level">Premium Ticket</div>
+                <h2>$90</h2>
+                <ol>
+                    <li>Front-Row Festival</li>
+                    <li>More Snacks and Drinks</li>
+                    <li>Lightsticks, Bracelet, and T-Shirt</li>
+                </ol>
+                <a id="button-link" href="#register"><button class="btn">BUY NOW</button></a>
+
+            </div>
+        </section>
+
+        <footer loading="lazy">
+            <p> &#169;Fariz Pramudia</p>
+        </footer>
+    </main>
+    <script src="https://kit.fontawesome.com/f4ef134553.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans";
+  color: #eeeeee;
+  font-weight: 450;
+  letter-spacing: -0.4px;
+}
+
+#main-section {
+  background: linear-gradient(
+      0deg,
+      hsla(183, 100%, 30%, 0.77),
+      hsla(183, 100%, 30%, 0.88)
+    ),
+    url("https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 120vh;
+  width: 100%;
+}
+
+#title {
+  padding: 30px 0 5px;
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+header p {
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 400;
+}
+.main-card {
+  background-color: hsla(216, 19%, 16%, 0.92);
+  width: 40vw;
+  max-width: 800px;
+  min-width: 500px;
+  height: 1000px;
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 20px;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  font-size: 1.1rem;
+  padding-left: 5px;
+}
+
+input,
+textarea {
+  background-color: hsla(217, 10%, 25%, 0.3);
+  border: 1px solid hsla(217, 10%, 25%, 0.3);
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  display: inline;
+}
+textarea {
+  font-family: "open sans";
+  padding: 5px 0 0 8px;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #00adb5;
+  min-width: 300px;
+}
+.section-spacing {
+  margin-bottom: 30px;
+}
+.indent {
+  margin-left: 0.2em;
+}
+select {
+  background-color: hsla(217, 10%, 25%, 0.3);
+  border: 1px solid hsla(217, 10%, 25%, 0.3);
+  color: hsl(0, 0%, 50%);
+}
+select option {
+  background-color: hsla(217, 10%, 25%, 1);
+  color: hsl(0, 0%, 70%);
+}

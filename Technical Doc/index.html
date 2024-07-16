@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Technical Documentation JS</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="title-container">
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png">
+            <header>JavaScript Documentation</header>
+        </div>
+
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#What_you_should_know">What you should know</a>
+        <a class="nav-link" href="#Javascript_vs_Java">Javascript vs Java</a>
+        <a class="nav-link" href="#Hello_World">Hello World</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Function">Function</a>
+        <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction
+            </header>
+
+            <p>Javascript (Not to be confused with Java (programming language), Javanese script, or ECMAScript) often
+                abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS. 99%
+                of websites use JavaScript on the client side for webpage behavior.</p>
+            <p>All major web browsers have a built-in JavaScript engine that executes the code on the user's device. Web
+                browsers have a dedicated JavaScript engine that executes the client code. These engines are also
+                utilized in some servers and a variety of apps. The most popular runtime system for non-browser usage is
+                Node.js.</p>
+            <p>The use of JavaScript has expanded beyond its web browser roots. JavaScript engines are now embedded in
+                a variety of other software systems, both for server-side website deployments and non-browser
+                applications. JavaScript has recently begun to appear in some embedded systems, usually by leveraging
+                Node.js.</p>
+        </section>
+        <section class="main-section" id="What_you_should_know">
+            <header>What you should know
+            </header>
+            <p>This guide assumes you have the following basic background:</p>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>A bit of Java</li>
+                <li>Basic IoT</li>
+            </ul>
+
+        </section>
+        <section class="main-section" id="Javascript_vs_Java">
+            <header>Javascript vs Java
+            </header>
+            <p>Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two
+                languages are distinct and differ greatly in design.</p>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header>Hello World
+            </header>
+            <p>To get started, you can try wriuting this legendary code for sbeginner:</p>
+            <code>console.log("Hello, World!");</code>
+            <p>This code is a runtime environment with a console object. It will show in your console log.</p>
+        </section>
+        <section class="main-section" id="Variables">
+            <header>Variables
+            </header>
+            <p>You use variables as symbolic names for values in your application. The names of variables, called
+                identifiers, conform to certain rules.</p>
+            <code>var x;</code>
+            <p>You use variables as symbolic names for values in your application. The names of variables, called
+                identifiers, conform to certain rules.</p>
+            <code>const z = "this value cannot be reassigned!";</code>
+            <p>You use variables as symbolic names for values in your application. The names of variables, called
+                identifiers, conform to certain rules.</p>
+            <code>let myNumber = 2;</code>
+            <p>You use variables as symbolic names for values in your application. The names of variables, called
+                identifiers, conform to certain rules.</p>
+            <code>myNumber = "foo";</code>
+        </section>
+        <section class="main-section" id="Function">
+            <header>Function</header>
+            <p>Variadic function demonstration</p>
+            <code><pre>
+function sum() {
+    let x = 0;
+
+    for (let i = 0; i < arguments.length; ++i)
+    x += arguments[i];
+            
+    return x;
+ }
+            
+sum(1, 2); // Returns 3
+sum(1, 2, 3); // Returns 6</pre>
+        </code>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <p>All the documentation in this page is taken from <a target="_blank"
+                    href="https://en.wikipedia.org/wiki/JavaScript#Simple_examples">wikipedia</a></p>
+        </section>
+        <footer>
+            <hr>
+            <p> &#169;Fariz Pramudia</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
